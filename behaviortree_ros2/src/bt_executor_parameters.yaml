@@ -36,7 +36,7 @@ bt_server:
     default_value: 1000,
     description: "Timeout (ms) used in BT::RosNodeParams",
     validation: {
-      bounds<>: [1, 10000]
+      bounds<>: [1, 100000]
     }
   }
   behavior_trees: {
